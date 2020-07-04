@@ -1,0 +1,63 @@
+<!--
+<style> 
+
+body{
+    background: rgba(0,0,0,0.7);
+    text-align: ;
+}
+
+#type-strings{
+    display: none;
+}
+
+#typed, #type-strings{
+    background: ;
+    color: orange;
+    font-size: 25px;
+    font-weight: 500;
+    text-shadow: 2px 1px  white;
+}
+
+#typed{
+    border-right: 1.3px solid orange;
+    animation: blink-caret 0.7s step-end infinite;
+}
+
+
+@keyframes blink-caret{
+  0%{ border-color: transparent; }
+  50%{ border-color: orange; }
+  100%{ border-color: transparent;}
+}
+
+</style>
+-->
+<html>
+ <head></head>
+ <body> 
+  <div id="type-strings"> 
+   <p> Programming </p> 
+   <p> Developer </p> 
+   <p> Youtube </p> 
+   <p> Coder </p> 
+  </div> 
+  <span id="typed"> </span> 
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11">
+</script> 
+  <script> 
+   var type = new Typed('#typed',{
+       stringsElement: '#type-strings',
+       typeSpeed: 120,
+       backSpeed: 40,
+       loop: true,
+       loopCount: true,
+       showCursor: false,
+   });
+   
+    
+ </script> 
+  <footer> 
+   <p class="programminghero">Learned and developed this site with <a href="http://www.programming-hero.com">Programming Hero</a></p> 
+  </footer>
+ </body>
+</html>
