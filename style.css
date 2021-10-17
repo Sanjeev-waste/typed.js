@@ -1,0 +1,35 @@
+body {
+ background-image: url("paper.gif");
+ background-color: #cccccc;
+}
+
+#typed, #type-strings{
+    background: ;
+    color: blue;
+    font-size: 25px;
+    font-weight: 500;
+    text-shadow: 2px 1px  white;
+}
+
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.programminghero{
+	font-size: 20px;
+}
