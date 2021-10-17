@@ -1,6 +1,7 @@
 body {
- background-image: url("paper.gif");
- background-color: #cccccc;
+  background-color: white;
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell,
+            'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #typed, #type-strings{
@@ -9,6 +10,8 @@ body {
     font-size: 25px;
     font-weight: 500;
     text-shadow: 2px 1px  white;
+       margin-top: 200px;
+        text-align: center
 }
 
 a:link {
