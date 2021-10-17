@@ -1,0 +1,38 @@
+body {
+  background-color: white;
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell,
+            'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#typed, #type-strings{
+    background: ;
+    color: blue;
+    font-size: 25px;
+    font-weight: 500;
+    text-shadow: 2px 1px  white;
+       margin-top: 200px;
+        text-align: center
+}
+
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.programminghero{
+	font-size: 20px;
+}
